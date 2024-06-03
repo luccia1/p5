@@ -101,3 +101,25 @@
 .about-content p{
   font-size: 14px;
 }
+.logo{
+  max-height: 40px;
+  
+}
+nav ul{
+  margin: o;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a{
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  color: #212529;
+}
+li.active a{
+  color: var(--branding-color);
+}
